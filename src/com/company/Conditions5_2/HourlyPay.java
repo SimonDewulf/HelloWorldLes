@@ -2,13 +2,10 @@ package com.company.Conditions5_2;
 
 import java.util.Scanner;
 
+
 public class HourlyPay {
     public static void main(String[] args) {
-        /* rules: 3 employees: each with name, hours worked, & hourly pay
-            determine gross pay per week for each employee
 
-            the company pays overtime by 1.5 above 40 hours per week
-         */
 
         double grossPayPerWeekEmployee1;
         double grossPayPerWeekEmployee2;
