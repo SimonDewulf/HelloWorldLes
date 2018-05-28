@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class HourlyPay {
     public static void main(String[] args) {
+//amagiewostekèrel
 
-//test
         double grossPayPerWeekEmployee1;
         double grossPayPerWeekEmployee2;
         double grossPayPerWeekEmployee3;
