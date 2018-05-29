@@ -8,7 +8,7 @@ public class NameRecogniser {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
 
-        String firstName = input.substring(0,input.indexOf(" "));
+        String firstName = input.substring(0, input.indexOf(" "));
         String lastName = input.substring(input.indexOf(" "), input.length());
 
         System.out.print(firstName);

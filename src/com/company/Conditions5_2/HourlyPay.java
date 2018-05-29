@@ -40,22 +40,22 @@ public class HourlyPay {
         System.out.println("enter " + employee3 + "'s hours worked");
         double hoursThisWeekEmployee3 = sc.nextDouble();
 
-        if (hoursThisWeekEmployee1 <= 40){
+        if (hoursThisWeekEmployee1 <= 40) {
             grossPayPerWeekEmployee1 = hoursThisWeekEmployee1 * wageEmployee1;
-        }else{
+        } else {
             grossPayPerWeekEmployee1 = hoursThisWeekEmployee1 * wageEmployee1 + (hoursThisWeekEmployee1 - 40) * 0.5 * wageEmployee1;
         }
 
-        if (hoursThisWeekEmployee2 <= 40){
+        if (hoursThisWeekEmployee2 <= 40) {
             grossPayPerWeekEmployee2 = hoursThisWeekEmployee2 * wageEmployee2;
-        }else{
+        } else {
             grossPayPerWeekEmployee2 = hoursThisWeekEmployee2 * wageEmployee2 + (hoursThisWeekEmployee2 - 40) * 0.5 * wageEmployee2;
         }
 
-        if (hoursThisWeekEmployee3 <= 40){
+        if (hoursThisWeekEmployee3 <= 40) {
             grossPayPerWeekEmployee3 = hoursThisWeekEmployee3 * wageEmployee3;
-        }else{
-            grossPayPerWeekEmployee3 = hoursThisWeekEmployee3 * wageEmployee3 + (hoursThisWeekEmployee3 -40) * 0.5 * wageEmployee3;
+        } else {
+            grossPayPerWeekEmployee3 = hoursThisWeekEmployee3 * wageEmployee3 + (hoursThisWeekEmployee3 - 40) * 0.5 * wageEmployee3;
         }
 
         System.out.println(employee1 + "'s gross weekly wage amounts to: " + grossPayPerWeekEmployee1);

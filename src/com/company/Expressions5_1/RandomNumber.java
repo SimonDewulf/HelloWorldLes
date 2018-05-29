@@ -7,9 +7,8 @@ public class RandomNumber {
 
         //formule: math.random *(maximum - minimum) + minimum
         //vb: tussen 5 & 10
-        double randomDouble = (Math.random() * 5+5);
+        double randomDouble = (Math.random() * 5 + 5);
         System.out.println(randomDouble);
-
 
 
     }

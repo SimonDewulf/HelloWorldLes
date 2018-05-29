@@ -9,7 +9,7 @@ public class NumberToWord {
         System.out.println("Enter an integer between 1 and 9");
         int number = sc.nextInt();
 
-        switch (number){
+        switch (number) {
 
             case 1:
                 System.out.println("one");
@@ -19,22 +19,22 @@ public class NumberToWord {
                 break;
             case 3:
                 System.out.println("three");
-                 break;
+                break;
             case 4:
                 System.out.println("four");
-                  break;
+                break;
             case 5:
                 System.out.println("five");
-                 break;
+                break;
             case 6:
                 System.out.println("six");
-                 break;
+                break;
             case 7:
                 System.out.println("seven");
-                 break;
+                break;
             case 8:
                 System.out.println("eight");
-                 break;
+                break;
             case 9:
                 System.out.println("nine");
                 break;

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Les1;
 
 public class StringOefening {
     public static void main(String[] args) {
@@ -7,6 +7,6 @@ public class StringOefening {
 
         System.out.println(myString.toUpperCase());
 
-        System.out.println(myString.substring(54,62));
+        System.out.println(myString.substring(54, 62));
     }
 }

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Les1;
 
 import java.util.Scanner;
 
@@ -12,23 +12,22 @@ public class Priemgetallen {
         int a = 2;
         boolean isPrime = false;
 
-        for(int i = 2; i < (input); i++){
+        for (int i = 2; i < (input); i++) {
 
-            if(input%i == 0){
+            if (input % i == 0) {
                 System.out.println(input + " is dividable by " + i + " and is therefore not a prime");
 
-            }else{
+            } else {
                 a++;
-                if(a == input){
-                    System.out.println( input + " is a prime");
+                if (a == input) {
+                    System.out.println(input + " is a prime");
                     isPrime = true;
                 }
 
             }
 
         }
-
-
+        System.out.println(isPrime);
 
 
     }

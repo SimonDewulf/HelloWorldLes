@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Les1;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class CaseMosselen {
         Scanner sc = new Scanner(System.in);
         String maand = sc.nextLine();
 
-        switch (maand){
+        switch (maand) {
 
             case "januari":
             case "februari":

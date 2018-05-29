@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Les1;
 
 import java.text.DecimalFormat;
 
@@ -13,8 +13,8 @@ public class Cramer {
         double f = 5.9;
 
 
-        double x = (((d*e) - (b*f))/((a*d) - (b*c)));
-        double y = (((a*f) - (e*c))/((a*d) - (b*c)));
+        double x = (((d * e) - (b * f)) / ((a * d) - (b * c)));
+        double y = (((a * f) - (e * c)) / ((a * d) - (b * c)));
 
         DecimalFormat df = new DecimalFormat("0.##");
 

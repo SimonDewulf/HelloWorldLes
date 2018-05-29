@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Les1;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class LoonBerekening {
         loon = loon + aantalDagen * loonPerDag;
         loon = loon + aantalKinderen * bedragPerKind;
 
-        if(!bedrijfswagen){
+        if (!bedrijfswagen) {
             loon = loon + bedragZonderBedrijfsWagen;
         }
 

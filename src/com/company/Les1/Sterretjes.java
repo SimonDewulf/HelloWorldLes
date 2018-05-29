@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Les1;
 
 public class Sterretjes {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Sterretjes {
         }
 
         System.out.print("\n");
-        for(int i = 0; i < 20; i++){
+        for (int i = 0; i < 20; i++) {
 
             System.out.println("                                      *****");
         }
