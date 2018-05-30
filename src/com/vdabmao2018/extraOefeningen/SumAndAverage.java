@@ -12,7 +12,7 @@ public class SumAndAverage {
             sum = sum + i;
         }
 
-        double average = sum/i;
+        double average = sum/(i-1);
         System.out.println("the sum is: " + sum);
         System.out.println("the average is: " + average);
 
