@@ -5,21 +5,20 @@ import java.util.Scanner;
 public class IsPrime {
     public static void main(String[] args) {
 
-
-
         Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
+        long input = sc.nextLong();
         boolean isPrime = true;
 
-        for(int i = 2; i <= input/2; i++){
+        for (long i = 2L; i <= input / 2; i++) {
 
-            if(input%i ==0){
+            if (input % i == 0) {
                 isPrime = false;
 
                 System.out.println(input + " can be divided by: " + i);
             }
         }
         System.out.println(isPrime);
-
     }
-}
+    }
+
+

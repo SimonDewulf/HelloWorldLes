@@ -9,41 +9,41 @@ public class PrintNumberInWord {
         System.out.println("enter an integer between 0 and 9");
         int input = sc.nextInt();
 
-        if(input == 0){
+        if (input == 0) {
             System.out.println("zero");
 
-        }else if(input == 1){
+        } else if (input == 1) {
             System.out.println("one");
 
-        }else if(input == 2){
+        } else if (input == 2) {
             System.out.println("two");
 
-        }else if(input == 3){
+        } else if (input == 3) {
             System.out.println("three");
-        }else if(input == 4){
+        } else if (input == 4) {
             System.out.println("four");
 
-        }else if(input == 5){
+        } else if (input == 5) {
             System.out.println("five");
 
-        }else if(input == 6){
+        } else if (input == 6) {
             System.out.println("six");
 
-        }else if(input == 7){
+        } else if (input == 7) {
             System.out.println("seven");
 
-        }else if(input == 8){
+        } else if (input == 8) {
             System.out.println("eight");
 
-        }else if(input == 9){
+        } else if (input == 9) {
             System.out.println("nine");
 
-        }else {
+        } else {
             System.out.println("other number");
         }
 
 
-        switch (input){
+        switch (input) {
             case 0:
                 System.out.println("zero");
                 break;

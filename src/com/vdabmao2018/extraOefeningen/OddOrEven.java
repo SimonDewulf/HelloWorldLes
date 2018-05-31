@@ -9,9 +9,9 @@ public class OddOrEven {
         System.out.println("enter an integer");
         int input = sc.nextInt();
 
-        if(input%2 == 0){
+        if (input % 2 == 0) {
             System.out.println("even");
-        }else{
+        } else {
             System.out.println("odd");
         }
         System.out.println("BYE");

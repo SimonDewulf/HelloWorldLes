@@ -7,12 +7,12 @@ public class SumAndAverage {
         double i = 1;
 
 
-        for(i = 1; i <= 100; i++){
+        for (i = 1; i <= 100; i++) {
 
             sum = sum + i;
         }
 
-        double average = sum/(i-1);
+        double average = sum / (i - 1);
         System.out.println("the sum is: " + sum);
         System.out.println("the average is: " + average);
 

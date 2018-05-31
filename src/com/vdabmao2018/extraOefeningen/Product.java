@@ -12,10 +12,9 @@ public class Product {
         int product = 1;
 
 
+        for (int i = 1; i < input; i++) {
 
-        for(int i = 1; i < input; i++){
-
-            product = product *i;
+            product = product * i;
             System.out.println(product);
         }
     }

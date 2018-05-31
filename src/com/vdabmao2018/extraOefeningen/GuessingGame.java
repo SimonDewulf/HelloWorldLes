@@ -15,23 +15,23 @@ public class GuessingGame {
 
         double randomNumber = (int) (Math.random() * (max - min) + min);
 
-        for(int i = 1; i <= 3; i++){
+        for (int i = 1; i <= 3; i++) {
 
             System.out.println("take a guess");
             int guess = sc.nextInt();
 
-            if(guess == randomNumber){
-                System.out.println("congratz Komrad");
+            if (guess == randomNumber) {
+                System.out.println("Congratulations");
                 isWon = true;
-                i = 87;
-            }else{
-                if(i<3) {
+                break;
+            } else {
+                if (i < 3) {
                     System.out.println("try again!");
                 }
             }
         }
 
-        if(!isWon){
+        if (!isWon) {
             System.out.println("game over");
         }
     }

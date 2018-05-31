@@ -7,11 +7,11 @@ public class Faculteit {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("enter an integer");
-        int faculty = sc.nextInt();
+        long input = sc.nextLong();
+        long faculty = input;
 
 
-
-        for(int i = faculty-1; i > 1; i--){
+        for (long i = input - 1; i > 1; i--) {
 
             faculty = faculty * i;
         }

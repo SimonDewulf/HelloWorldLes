@@ -1,4 +1,4 @@
-package com.vdabmao2018.les2;
+package com.vdabmao2018.lessen.les1.les2;
 
 import java.util.Scanner;
 
@@ -29,7 +29,7 @@ public class Math_oefeningen {
 
         int distance = 20;
 
-        double F = gravitationConstant * massa1 * massa2/Math.pow(distance, 2);
+        double F = gravitationConstant * massa1 * massa2 / Math.pow(distance, 2);
 
         double f = Math.log(5);
 
