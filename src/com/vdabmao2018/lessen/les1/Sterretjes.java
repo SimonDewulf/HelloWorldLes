@@ -1,4 +1,4 @@
-package com.vdabmao2018.lessen.les1.les1;
+package com.vdabmao2018.lessen.les1;
 
 public class Sterretjes {
     public static void main(String[] args) {

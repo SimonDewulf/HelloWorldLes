@@ -1,4 +1,4 @@
-package com.vdabmao2018.lessen.les1.les2;
+package com.vdabmao2018.lessen.les2;
 
 import java.util.Scanner;
 
