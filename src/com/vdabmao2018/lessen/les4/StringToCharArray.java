@@ -14,27 +14,34 @@ public class StringToCharArray {
         //a, e, i, o, u, y
         int[] vowellArray = {0, 0, 0, 0, 0, 0};
 
-        for (int i = 0; i < input.length(); i++ ){
+        for (int i = 0; i < input.length(); i++) {
             charArray[i] = upperCaseInput.charAt(i);
 
         }
 
-        for(int i = 0; i< charArray.length; i++){
+        for (int i = 0; i < charArray.length; i++) {
 //kan ook met nested loop
-            switch (charArray[i]){
-                case 'A': vowellArray[0]++;
+            switch (charArray[i]) {
+                case 'A':
+                    vowellArray[0]++;
                     break;
-                case 'E': vowellArray[1]++;
+                case 'E':
+                    vowellArray[1]++;
                     break;
-                case 'I': vowellArray[2]++;
+                case 'I':
+                    vowellArray[2]++;
                     break;
-                case 'O': vowellArray[3]++;
+                case 'O':
+                    vowellArray[3]++;
                     break;
-                case 'U': vowellArray[4]++;
+                case 'U':
+                    vowellArray[4]++;
                     break;
-                case 'Y': vowellArray[5]++;
+                case 'Y':
+                    vowellArray[5]++;
                     break;
-                default: break;
+                default:
+                    break;
             }
         }
 

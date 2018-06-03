@@ -60,8 +60,8 @@ public class Graphics1 extends Application {
             gc.setFill(Color.rgb(random.nextInt(255), random.nextInt(255),
                     random.nextInt(255), 0.9));
             gc.fillPolygon(
-                    new double[] { 105, 117, 159, 123, 133, 105, 77, 87,51, 93 },
-                    new double[] { 150, 186, 186, 204, 246, 222, 246,204, 186, 186 }, 10);
+                    new double[]{105, 117, 159, 123, 133, 105, 77, 87, 51, 93},
+                    new double[]{150, 186, 186, 204, 246, 222, 246, 204, 186, 186}, 10);
         }
     }
 }

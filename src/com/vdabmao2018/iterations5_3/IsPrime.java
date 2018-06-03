@@ -19,6 +19,6 @@ public class IsPrime {
         }
         System.out.println(isPrime);
     }
-    }
+}
 
 
