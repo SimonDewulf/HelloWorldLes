@@ -9,27 +9,27 @@ public class MatrixMagic {
         int[][] matrix2 = matrixConstruct();
 
 
-        System.out.println("test whether these matrices are multiplyable returns: " + multiplicationTest(matrix1, matrix2));
+        System.out.println("test whether these matrices are multiplicable returns: " + multiplicationTest(matrix1, matrix2));
 
-        if (multiplicationTest(matrix1, matrix2)) {
+            if (multiplicationTest(matrix1, matrix2)) {
 
-            int[][] product = product(matrix1, matrix2);
-            System.out.println("multiplying these matrices returns");
-            print2DArray(product);
-        } else {
-            System.out.println("you cannot multiply these matrices.");
-        }
+                int[][] product = product(matrix1, matrix2);
+                System.out.println("multiplying these matrices returns");
+                print2DArray(product);
+            } else {
+                System.out.println("you cannot multiply these matrices.");
+            }
 
-        if (isEqualDimensions(matrix1, matrix2)) {
-            int[][] sum = addition(matrix1, matrix2);
-            System.out.println("adding these matrices returns: ");
-            print2DArray(sum);
-        }
+            if (isEqualDimensions(matrix1, matrix2)) {
+                int[][] sum = addition(matrix1, matrix2);
+                System.out.println("adding these matrices returns: ");
+                print2DArray(sum);
+            }
 
-        if (isEqualDimensions(matrix1, matrix2)) {
-            int[][] subtract = subtraction(matrix1, matrix2);
-            System.out.println("subtracting these matrices returns: ");
-            print2DArray(subtract);
+            if (isEqualDimensions(matrix1, matrix2)) {
+                int[][] subtract = subtraction(matrix1, matrix2);
+                System.out.println("subtracting these matrices returns: ");
+                print2DArray(subtract);
         }
     }
 
@@ -96,7 +96,7 @@ public class MatrixMagic {
 
 
         int[] columnsOfa = a[0];
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 0; i < a.length; i++) {                              //die for each loop notatie suggestie lijkt me vreemd
             System.out.println();
             for (int j = 0; j < columnsOfa.length; j++) {
 
