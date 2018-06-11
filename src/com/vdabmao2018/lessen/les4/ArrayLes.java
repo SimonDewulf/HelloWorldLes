@@ -1,5 +1,8 @@
 package com.vdabmao2018.lessen.les4;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class ArrayLes {
     public static void main(String[] args) {
 
@@ -8,6 +11,8 @@ public class ArrayLes {
 
         //arrays can't be changed in length. the values can be adjusted but not the size.
         //they can be made of any Data Type, meaning Classes AND primitives
+
+
 
 
         for (int i = 0; i < (j.length); i++) {
@@ -61,6 +66,8 @@ public class ArrayLes {
 
         int getal1 = dubbelArray[2][0];
         // ==> prints 4
+
+
 
     }
 }
