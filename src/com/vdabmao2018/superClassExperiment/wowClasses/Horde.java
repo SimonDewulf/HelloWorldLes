@@ -1,4 +1,4 @@
-package com.vdabmao2018.superClassExperiment;
+package com.vdabmao2018.superClassExperiment.wowClasses;
 
 public class Horde implements Faction {
     public void capital(){

@@ -1,6 +1,6 @@
-package com.vdabmao2018.superClassExperiment;
+package com.vdabmao2018.superClassExperiment.wowClasses;
 
-public class Troll implements Race{
+public class Troll extends Race{
 
     Faction faction = new Horde();
     public void passiveRacial(){

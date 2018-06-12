@@ -1,4 +1,4 @@
-package com.vdabmao2018.superClassExperiment;
+package com.vdabmao2018.superClassExperiment.wowClasses;
 
 public class Alliance implements Faction{
     public void capital(){
